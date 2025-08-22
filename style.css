@@ -1,0 +1,41 @@
+body {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: Roboto,'Open Sans', sans-serif;
+    background-color: #1f2937;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+li, ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-link, .hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
