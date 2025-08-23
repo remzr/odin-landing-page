@@ -225,9 +225,11 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
+
 }
 
 footer>p {
     flex: auto;
     margin: 60px;
+    text-align: center;
 }
