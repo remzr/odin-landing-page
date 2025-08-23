@@ -217,3 +217,17 @@ h2 {
     max-width: fit-content;
     justify-self: flex-end;
 }
+
+/* FOOTER */
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+footer>p {
+    flex: auto;
+    margin: 60px;
+}
